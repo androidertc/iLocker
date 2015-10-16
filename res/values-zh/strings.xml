@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">E 锁屏</string>
+    <string name="drawer_open">开启</string>
+    <string name="drawer_close">关闭</string>
+    <string name="label_menu">菜单</string>
+    <string name="create_password">设置密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="label_crop_image">截图</string>
+    <string name="label_preview">预览</string>
+    <string name="slide_to_unlock_string">滑动屏幕解锁</string>
+    <string name="label_lock_type_slide">简约</string>
+    <string name="label_lock_type_myname">照片墙</string>
+    <string name="label_lock_type_mood">心情</string>
+    <string name="label_lock_type_mylover">情侣</string>
+
+    <string name="label_lock_type_none">无</string>
+    <string name="label_lock_type_pattern">手势锁</string>
+    <string name="label_lock_type_digit">数字锁</string>
+    <string name="label_lock_type_ring">圆环锁</string>
+    <string name="label_lock_type_dpicture">照片锁</string>
+    <string name="label_lock_type_cpattern">自定义</string>
+    <string name="label_lock_type_lpicture">爱心锁</string>
+    <string name="label_lock_type_ppicture">九图锁</string>
+    
+    <string name="notification_content">DIY你的个性锁屏</string>
+    
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="reset">重置</string>
+    
+    <string name="pick_wallpaper_from_gallery">从相册选择</string>
+    
+    <string name="try_again">再输入一次</string>
+    <string name="password_not_equal">密码不一致</string>
+    
+    <string name="crop__saving">正在保存照片…</string>
+    <string name="crop__wait">请等待…</string>
+    <string name="crop__pick_error">无效的图片</string>
+    <string name="crop__done">完成</string>
+    <string name="crop__cancel">取消</string>
+    <!-- color picker -->
+    <string name="color_swatch_description">颜色 %1$d</string>
+    <string name="color_swatch_description_selected">%1$d颜色被选中</string>
+    <string name="color_picker_default_title">选一个颜色</string>
+    <string name="color_dialog_title">选一个颜色</string>
+    <string name="contour_dialog_title">选一个形状</string>
+    
+    
+    <string name="menu_feedback">反馈</string>
+    <string name="menu_rate">好评</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_help">使用帮助</string>
+    <string name="menu_mi">小米用户设置</string>
+    
+    <string name="press_back_to_finish">再按一次退出应用</string>
+    
+    <string name="pick_color_label">颜色</string>
+    <string name="pick_contour_label">形状</string>
+    <string name="apply_label">应用</string>
+    
+    <string name="version_check_update">检查更新</string>
+    <string name="product_info">产品介绍</string>
+    <string name="use_help">使用帮助</string>
+    <string name="feedback">反馈</string>
+    
+    <string name="no_market_founded">未发现应用市场应用</string>
+    <string name="basic_settings">通用设置</string>
+    <string name="onekey_settings">一键锁屏</string>
+    <string name="onkey_lock">一键锁屏</string>
+    <string name="onkey_lock_des">创建一键锁屏快捷方式</string>
+    
+    <string name="disable_system_lock">关闭系统锁屏</string>
+    <string name="change_password">修改密码</string>
+    <string name="disable_system_lock_des">选择"无"防止出现双锁屏</string>
+    
+    <string name="service_enable">启用锁屏</string>
+    <string name="enable_admin_tip">激活后才能使用锁屏功能哦，亲^_^！</string>
+    <string name="one_key_lock_screen">一键锁屏</string>
+    
+    <!-- sweet alert dialog -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <string name="enter_digital_password">输入密码</string>
+    <string name="draw_pattern_password">绘制密码</string>
+    <string name="password_wrong">密码错误</string>
+    <string name="clear_label">清空</string>
+    <string name="delete_label">删除</string>
+    
+    <string name="confirm_save_des">是否保存当前设置？</string>
+    <string name="confirm_save">是否保存</string>
+    <string name="save_completed">保存成功</string>
+    <string name="save_settings_completed">保存当前设置成功</string>
+    <string name="save_cancel">不，取消</string>
+    <string name="save_ok">是的，保存</string>
+    
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    
+    <string name="current_locker_mode_not_need_password">当前解锁模式不需要密码</string>
+    
+    <string name="email_not_found">未发现Email应用</string>
+    <string name="phone_not_found">未发现Phone应用</string>
+    <string name="camera_not_found">未发现Camera应用</string>
+    <string name="message_not_found">未发现Message应用</string>
+    
+    <string name="action_not_support">敬请期待</string>
+    
+    <!-- MIUI设置 -->
+    <string name="enable_system_alert">允许显示悬浮窗</string>
+    <string name="enable_system_alert_des">因系统限制，必须开启“显示悬浮窗”选项才能使用E锁屏。</string>
+    <string name="enable_auto_start">信任程序和允许自动启动</string>
+    <string name="enable_auto_start_des">打开该开关，避免E锁屏被系统杀死，保证长时间正常使用。</string>
+    
+    
+    <!-- 删除 -->
+    <string name="confirm_delete">确认删除？</string>
+    <string name="confirm_delete_des">确定删除这张壁纸吗？</string>
+    <string name="confirm_delete_cancel">不，谢谢</string>
+    <string name="confirm_delete_ok">是，删除</string>
+    <string name="confirm_delete_success">已删除</string>
+    <string name="confirm_delete_success_des">您的壁纸已删除</string>
+    
+    <!-- 服务服务 -->
+    <string name="accessilibity_des">开启次功能模块会在锁屏页面显示通知信息。\n激活此模块时，您可能会受到关于隐私风险的警告，这是对任何辅助服务的例行警告，我们承诺绝不会通过辅助服务搜集您的任何个人信息。\n部分三星设备中激活辅助服务会导致随机的语音朗读问题，如果您遇到了此问题，可关闭辅助服务，规避此问题。</string>
+    
+    <!-- 部件 -->
+    <string name="widget_label_time">日期和时间</string>
+    <string name="widget_label_sentence">文字短语</string>
+    <string name="widget_label_countdown">倒计时</string>
+    <string name="widget_label_timing">计时</string>
+    <string name="widget_label_notification">通知</string>
+    <string name="widget_label_camera">照相机</string>
+    <string name="widget_sentence_content_default">永不放弃!</string>
+    <string name="widget_countdown_content_default">老公的生日</string>
+    <string name="widget_timing_content_default">我们在一起</string>
+    <string name="time_format">%1$s天 %2$s</string>
+	<string name="widget_settings_label">部件</string>    
+	<string name="widget_hide">隐藏</string>
+	<string name="widget_display">显示</string>
+	<string name="widget_notification_enable_tip">进入服务-E 锁屏，开启服务。</string>
+	<string name="widget_notification_disable_tip">进入服务-E 锁屏，关闭服务。</string>
+	
+    <!-- date time picker -->
+    <string name="done_label" msgid="7007948707597430919">"完成"</string>
+    <string name="hour_picker_description" msgid="7586639618712934060">"小时转盘"</string>
+    <string name="minute_picker_description" msgid="6024811202872705251">"分钟转盘"</string>
+    <string name="select_hours" msgid="7651068754188418859">"选择小时"</string>
+    <string name="select_minutes" msgid="8327182090226828481">"选择分钟"</string>
+    <string name="day_picker_description" msgid="3968620852217927702">"按月份划分的日期网格"</string>
+    <string name="year_picker_description" msgid="6963340404644587098">"年份列表"</string>
+    <string name="select_day" msgid="3973338219107019769">"选择月份和日期"</string>
+    <string name="select_year" msgid="2603330600102539372">"选择年份"</string>
+    <string name="item_is_selected" msgid="2674929164900463786">"已选择 <xliff:g id="ITEM">%1$s</xliff:g>"</string>
+    <string name="deleted_key" msgid="6908431551612331381">"已删除 <xliff:g id="KEY">%1$s</xliff:g>"</string>
+    
+    <string name="loading">加载中…</string>
+</resources>

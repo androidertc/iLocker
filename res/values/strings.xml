@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">E Locker</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="label_menu">Menu</string>
+    <string name="create_password">Set passcode</string>
+    <string name="confirm_password">Confirm passcode</string>
+    <string name="label_crop_image">Crop image</string>
+    <string name="label_preview">Preview</string>
+    <string name="slide_to_unlock_string">Slide to unlock</string>
+    <string name="label_lock_type_slide">Simple</string>
+    <string name="label_lock_type_myname">Image</string>
+    <string name="label_lock_type_mood">Mood</string>
+    <string name="label_lock_type_mylover">Lover</string>
+
+    <string name="label_lock_type_pattern">Pattern</string>
+    <string name="label_lock_type_digit">Digital</string>
+    <string name="label_lock_type_ring">Ring</string>
+    <string name="label_lock_type_dpicture">10-Picture</string>
+    <string name="label_lock_type_none">None</string>
+    <string name="label_lock_type_cpattern">Custom</string>
+    <string name="label_lock_type_lpicture">Heart</string>
+    <string name="label_lock_type_ppicture">9-Picture</string>
+    
+    <string name="notification_content">DIY Your lock screen</string>
+    
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    
+    <string name="pick_wallpaper_from_gallery">Select from gallery</string>
+    
+    <string name="try_again">Enter again</string>
+    <string name="password_not_equal">Passcode not equal</string>
+    
+    <string name="crop__saving">Saving…</string>
+    <string name="crop__wait">Loading…</string>
+    <string name="crop__pick_error">Invalid picture</string>
+    <string name="crop__done">Done</string>
+    <string name="crop__cancel">Cancel</string>
+    <!-- color picker -->
+    <string name="color_swatch_description">Color %1$d</string>
+    <string name="color_swatch_description_selected">%1$d selected</string>
+    <string name="color_picker_default_title">Pick a color</string>
+    <string name="color_dialog_title">Pick a color</string>
+    <string name="contour_dialog_title">Pick a contour</string>
+    
+    
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_rate">Rate</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_mi">MIUI Settings</string>
+    
+    <string name="press_back_to_finish">Press again for exit</string>
+    
+    <string name="pick_color_label">Color</string>
+    <string name="pick_contour_label">Contour</string>
+    <string name="apply_label">Apply</string>
+    
+    <string name="version_check_update">Check update</string>
+    <string name="product_info">Product introduction</string>
+    <string name="use_help">Help</string>
+    <string name="feedback">Feedback</string>
+    
+    <string name="no_market_founded">App store not found</string>
+    <string name="basic_settings">General settings</string>
+    <string name="onekey_settings">One key lock screen</string>
+    <string name="onkey_lock">One key lock screen</string>
+    <string name="onkey_lock_des">Create one key lock screen shortcut</string>
+    
+    <string name="disable_system_lock">Disable system lock screen</string>
+    <string name="change_password">Change passcode</string>
+    <string name="disable_system_lock_des">Select \"None\" for disable system lock screen</string>
+    
+    <string name="service_enable">Enable E Locker</string>
+    <string name="enable_admin_tip">Must active device admin</string>
+    <string name="one_key_lock_screen">One key lock screen</string>
+    
+    <!-- sweet alert dialog -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <string name="enter_digital_password">Enter passcode</string>
+    <string name="draw_pattern_password">Draw passcode</string>
+    <string name="password_wrong">Passcode wrong</string>
+    <string name="clear_label">Clear</string>
+    <string name="delete_label">Del</string>
+    
+    <string name="confirm_save_des">Save current settings?</string>
+    <string name="confirm_save">Confirm save?</string>
+    <string name="save_completed">Save success</string>
+    <string name="save_settings_completed">Save success</string>
+    <string name="save_cancel">No, thx</string>
+    <string name="save_ok">Yes, plx</string>
+    
+        
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    
+    
+    <string name="current_locker_mode_not_need_password">Current locker type don\'t use passcode</string>
+    
+    <string name="email_not_found">Email not found</string>
+    <string name="phone_not_found">Phone not found</string>
+    <string name="camera_not_found">Camera not found</string>
+    <string name="message_not_found">Message not found</string>
+    
+    <string name="action_not_support">敬请期待</string>
+    
+    <!-- MIUI设置 -->
+    <string name="enable_system_alert">允许显示悬浮窗</string>
+    <string name="enable_system_alert_des">因系统限制，必须开启“显示悬浮窗”选项才能使用E锁屏。</string>
+    <string name="enable_auto_start">信任程序和允许自动启动</string>
+    <string name="enable_auto_start_des">打开该开关，避免E锁屏被系统杀死，保证长时间正常使用。</string>
+    
+    
+    <!-- 删除 -->
+    <string name="confirm_delete">Confirm delete?</string>
+    <string name="confirm_delete_des">Delete the wallpaper?</string>
+    <string name="confirm_delete_cancel">No, thx</string>
+    <string name="confirm_delete_ok">Yes, plx</string>
+    <string name="confirm_delete_success">Deleted</string>
+    <string name="confirm_delete_success_des">The wallpaper is deleted</string>
+    
+    <!-- 辅助服务 -->
+    <string name="accessilibity_des">Open accessibility service to dispaly notification on the lock screen.\nYou may be wrined about privacy, that\'s just a regular informative warning for any accessibility service. We promise NEVER EVER collecting your personal information in the accessibility service.\nSome Samsung devices has voice talking issue, If you are experiencing the issue, Disable the service prevented.</string>
+    
+    <!-- 部件 -->
+    <string name="widget_label_time">Date &amp; Time</string>
+    <string name="widget_label_sentence">Sentence</string>
+    <string name="widget_label_countdown">Countdown</string>
+    <string name="widget_label_timing">Timing</string>
+    <string name="widget_label_notification">Notification</string>
+    <string name="widget_label_camera">Camera</string>
+    <string name="widget_sentence_content_default">Never give up!</string>
+    <string name="widget_countdown_content_default">Husband\'s birthday</string>
+    <string name="widget_timing_content_default">We love</string>
+    <string name="time_format">%1$sd %2$s</string>
+	<string name="widget_settings_label">Widgets</string>    
+	<string name="widget_hide">Hide</string>
+	<string name="widget_display">Display</string>
+	<string name="widget_notification_enable_tip">Enter Service-E Locker, enable service.</string>
+	<string name="widget_notification_disable_tip">Enter Service-E Locker, disable service.</string>
+	
+	<!-- date time picker -->
+    <string name="done_label">Done</string>
+    <string name="day_picker_description">Month grid of days</string>
+    <string name="year_picker_description">Year list</string>
+    <string name="select_day">Select month and day</string>
+    <string name="select_year">Select year</string>
+    <string name="item_is_selected">%1$s selected</string>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="day_of_week_label_typeface" translatable="false">sans-serif</string>
+    <string name="time_placeholder" translatable="false">--</string>
+    <string name="time_separator" translatable="false">:</string>
+    <string name="deleted_key"><xliff:g id="key" example="4">%1$s</xliff:g> deleted</string>
+    <string name="hour_picker_description">Hours circular slider</string>
+    <string name="minute_picker_description">Minutes circular slider</string>
+    <string name="radial_numbers_typeface" translatable="false">sans-serif</string>
+    <string name="select_hours">Select hours</string>
+    <string name="select_minutes">Select minutes</string>
+    
+    <string name="loading">Loading…</string>
+</resources>

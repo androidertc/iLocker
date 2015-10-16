@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qc4w.ilocker.ui.view.KeyPressListenableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_comment_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb000000" >
+
+    <LinearLayout
+        android:id="@+id/fragment_comment_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#E1E1E1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/nav_bar" >
+
+            <ImageView
+                android:id="@+id/fragment_comment_close"
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:padding="4dip"
+                android:src="@drawable/titlebar_btn_close" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fragment_comment_submit"
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:padding="4dip"
+                android:src="@drawable/titlebar_btn_submit" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="#e5e5e5" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/fragment_comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="120dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/input_wrap"
+            android:gravity="top"
+            android:padding="5dip"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="3dip"
+            android:orientation="horizontal" >
+
+            <com.qc4w.ilocker.ui.view.NoSizeCircleColorView
+                android:id="@+id/iv_color_btn"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:layout_marginLeft="3dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_comment_footer_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/emoticon_keyboard_height"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </LinearLayout>
+    </LinearLayout>
+
+</com.qc4w.ilocker.ui.view.KeyPressListenableFrameLayout>

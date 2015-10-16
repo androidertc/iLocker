@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.qc4w.ilocker.ui.view.ViewMsgTitleIndict
+        android:id="@+id/vpti_pager_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        app:indicatorHeight="2dp"
+        app:tabCount="2"
+        app:textArray="@array/widget_type"
+        app:textColor_default="@color/drak_gray"
+        app:textColor_selected="@color/app_main_color"
+        app:textSize="16sp" />
+
+    <com.qc4w.ilocker.ui.view.ScrollerViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:id="@id/ll_operations"
+        style="@style/LinearLayout_Operations" >
+
+        <TextView
+            android:id="@+id/tv_ok"
+            style="@style/Button_Operations"
+            android:background="@drawable/btn_app_theme"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

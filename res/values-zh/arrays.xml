@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="main_menus">
+        <item>首页</item>
+        <item>壁纸</item>
+        <item>部件</item>
+        <item>设置</item>
+        <item>关于</item>
+    </string-array>
+
+    <integer-array name="colors">
+        <item>0xFFFFFFFF</item>
+        <item>0xFF3F3FFF</item>
+        <item>0xFF912BC6</item>
+        <item>0xFFFFAE32</item>
+        <item>0xFF45C3C5</item>
+        <item>0xFFFF4875</item>
+        <item>0xFF000000</item>
+        <item>0xFF2BAFF4</item>
+        <item>0xFFA08BCD</item>
+        <item>0xFFF47564</item>
+        <item>0xFFA47C62</item>
+        <item>0xFF3B5999</item>
+        <item>0xFFDF33AC</item>
+        <item>0xFF55BC75</item>
+        <item>0xFF7C45EC</item>
+        <item>0xFFF22B2B</item>
+    </integer-array>
+
+    <string-array name="widget_type">
+        <item>主屏幕</item>
+        <item>右屏幕</item>
+    </string-array>
+    
+    <string-array name="locker_screen_titles">
+        <item>主题</item>
+        <item>解锁方式</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>1.有的时候E锁屏失效了，锁不了屏幕？</item>
+		<item>2.使用E锁屏，仍出现系统锁屏，导致出现双锁屏？</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>一键清理内存的时候，请不要使用清理软件清除\"E锁屏\"，这样会导致无法正常锁屏。\n\n改善方法：在清理软体中把\"E锁屏\"加入\"进程白名单/程式忽略名单（不清除名单）\"让E锁屏正常运行。</item>
+		<item>在设置中选择关闭系统锁屏，选择系统锁屏样式为\"无\"，防止出现双锁屏。</item>
+    </string-array>
+    
+</resources>

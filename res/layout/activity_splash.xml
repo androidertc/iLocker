@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <com.qc4w.ilocker.ui.view.ClipRevealFrame
+        android:id="@+id/menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_main_color"
+        android:visibility="invisible" >
+
+<!--         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/notification_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="20sp" /> -->
+    </com.qc4w.ilocker.ui.view.ClipRevealFrame>
+
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+		android:layout_centerInParent="true"
+        android:background="@drawable/circle_logo" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/fab"
+        android:layout_marginTop="20dp"
+        android:text="@string/notification_content"
+        android:textColor="@color/app_main_color"
+        android:textSize="20sp" />
+    
+</RelativeLayout>

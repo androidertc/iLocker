@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:prvandroid="http://schemas.android.com/apk/res/com.qc4w.ilocker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/slide_to_unlock_string"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        prvandroid:reflectionColor="#FF5F5F5F" />
+
+    <com.qc4w.ilocker.ui.view.TouchArtistView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shimmer_tv"
+        android:text="@string/app_name" />
+
+</RelativeLayout>

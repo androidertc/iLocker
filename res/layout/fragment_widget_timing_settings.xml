@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_timing_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_edittext_dash_white"
+        android:minWidth="80dp"
+        android:padding="5dp"
+        android:text="@string/slide_to_unlock_string"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <com.qc4w.ilocker.ui.view.TimingTextView
+        android:id="@+id/tv_timing_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_timing_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:minWidth="80dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_edittext_dash_white"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_operations"
+        style="@style/LinearLayout_Operations" >
+
+        <TextView
+            android:id="@+id/tv_disable"
+            style="@style/Button_Operations"
+            android:background="@drawable/selector_gray_bg"
+            android:text="@string/widget_hide"
+            android:textColor="@color/drak_gray" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_enable"
+            style="@style/Button_Operations"
+            android:background="@drawable/btn_app_theme"
+            android:text="@string/widget_display" />
+    </LinearLayout>
+
+</RelativeLayout>

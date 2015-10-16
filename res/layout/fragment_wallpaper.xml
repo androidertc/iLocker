@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rl_pick_wallpaper_from_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_gray_bg"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/iv_disable_system_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_goto_arrow" />
+
+            <TextView
+                android:id="@+id/tv_disable_system_lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pick_wallpaper_from_gallery"
+                android:textColor="#505050"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <com.qc4w.ilocker.ui.view.NoScrollGridView
+            android:id="@+id/gv_wallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_pick_wallpaper_from_gallery"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:verticalSpacing="10dp" >
+        </com.qc4w.ilocker.ui.view.NoScrollGridView>
+    </RelativeLayout>
+
+</ScrollView>

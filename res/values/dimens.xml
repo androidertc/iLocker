@@ -1,0 +1,117 @@
+<resources>
+
+    <dimen name="layout_child_offset_large">120dp</dimen>
+    <dimen name="layout_radius_large">168dp</dimen>
+    <dimen name="crop__bar_height">56dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- ldrawer -->
+    <dimen name="ldrawer_drawableSize">50dp</dimen>
+    <dimen name="ldrawer_barSize">18dp</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11dp</dimen>
+    <dimen name="ldrawer_thickness">2dp</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3dp</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16dp</dimen>
+    <dimen name="navdrawer_width">260dp</dimen>
+    <dimen name="emoticon_keyboard_height">165dip</dimen>
+    <!-- circle menu -->
+    <dimen name="action_button_size">72dp</dimen>
+    <dimen name="action_button_content_margin">16dp</dimen>
+    <dimen name="action_button_margin">12dp</dimen>
+    <dimen name="action_menu_radius">96dp</dimen>
+    <dimen name="sub_action_button_size">36dp</dimen>
+    <dimen name="sub_action_button_content_margin">6dp</dimen>
+    <dimen name="slide_bar_width">408.85px</dimen>
+    <dimen name="slide_bar_height">65.5dip</dimen>
+    <dimen name="gradient_view_margin_left">0dip</dimen>
+    <dimen name="gradient_text_size">26.6sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="over_flow_text_size">16sp</dimen>
+    <dimen name="main_menu_text_size">18sp</dimen>
+    <dimen name="main_menu_icon_size">26dp</dimen>
+
+    <!-- color picker -->
+    <dimen name="color_swatch_large">64.0dip</dimen>
+    <dimen name="color_swatch_small">48.0dip</dimen>
+    <dimen name="color_swatch_margins_large">8.0dip</dimen>
+    <dimen name="color_swatch_margins_small">4.0dip</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+    <dimen name="fab_stroke_width">0.5dp</dimen>
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="slide_locker_banner_height">140dp</dimen>
+    <dimen name="wallpaper_width">110dp</dimen>
+    <dimen name="wallpaper_height">175dp</dimen>
+    <dimen name="lock_type_width">110dp</dimen>
+    <dimen name="lock_type_height">175dp</dimen>
+    <dimen name="ll_operations_height">45dp</dimen>
+    <dimen name="setting_item_height">60dp</dimen>
+
+    <!-- indicator -->
+    <dimen name="default_indicator_height">2dp</dimen>
+    <dimen name="default_text_size">15sp</dimen>
+    <dimen name="default_num_size">8sp</dimen>
+
+    <integer name="default_indicator_count">2</integer>
+
+    <dimen name="activity_content_padding">5dp</dimen>
+    <dimen name="activity_padding">10dp</dimen>
+
+    <!-- sweetalertdialog -->
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+    <!-- springindicator -->
+    <dimen name="si_default_text_size">18sp</dimen>
+    <dimen name="si_default_radius_max">24dp</dimen>
+    <dimen name="si_default_radius_min">8dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+
+    <!-- date time picker -->
+     <dimen name="done_label_size">14sp</dimen>
+    <dimen name="date_picker_component_width">270dip</dimen>
+    <dimen name="date_picker_header_height">30dip</dimen>
+    <dimen name="selected_calendar_layout_height">155dip</dimen>
+    <dimen name="date_picker_view_animator_height">270dip</dimen>
+    <dimen name="month_list_item_header_height">50dip</dimen>
+    <dimen name="month_day_label_text_size">10sp</dimen>
+    <dimen name="day_number_select_circle_radius">16dip</dimen>
+    <dimen name="month_select_circle_radius">45dip</dimen>
+    <dimen name="selected_date_year_size">30dip</dimen>
+    <dimen name="selected_date_day_size">75dip</dimen>
+    <dimen name="selected_date_month_size">30dip</dimen>
+    <dimen name="date_picker_header_text_size">14dip</dimen>
+    <dimen name="month_label_size">16sp</dimen>
+    <dimen name="day_number_size">16sp</dimen>
+    <dimen name="year_label_height">64dip</dimen>
+    <dimen name="year_label_text_size">22dip</dimen>
+
+    <dimen name="time_label_size">60sp</dimen>
+    <dimen name="extra_time_label_margin">-30dp</dimen>
+    <dimen name="ampm_label_size">16sp</dimen>
+    <dimen name="ampm_left_padding">6dip</dimen>
+    <dimen name="separator_padding">4dip</dimen>
+    <dimen name="header_height">96dip</dimen>
+    <dimen name="picker_dimen">270dip</dimen>
+    <dimen name="minimum_margin_sides">48dip</dimen>
+    <dimen name="minimum_margin_top_bottom">24dip</dimen>
+
+    <item name="circle_radius_multiplier" format="float" type="string">0.82</item>
+    <item name="circle_radius_multiplier_24HourMode" format="float" type="string">0.85</item>
+    <item name="selection_radius_multiplier" format="float" type="string">0.16</item>
+    <item name="ampm_circle_radius_multiplier" format="float" type="string">0.19</item>
+    <item name="numbers_radius_multiplier_normal" format="float" type="string">0.81</item>
+    <item name="numbers_radius_multiplier_inner" format="float" type="string">0.60</item>
+    <item name="numbers_radius_multiplier_outer" format="float" type="string">0.83</item>
+    <item name="text_size_multiplier_normal" format="float" type="string">0.17</item>
+    <item name="text_size_multiplier_inner" format="float" type="string">0.14</item>
+    <item name="text_size_multiplier_outer" format="float" type="string">0.11</item>
+</resources>

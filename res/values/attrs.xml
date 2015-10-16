@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <attr name="arc_origin">
+        <!-- Value same as the android:gravity -->
+        <flag name="top" value="0x30" />
+        <flag name="bottom" value="0x50" />
+        <flag name="left" value="0x03" />
+        <flag name="right" value="0x05" />
+        <flag name="center_vertical" value="0x10" />
+        <flag name="center_horizontal" value="0x01" />
+        <flag name="center" value="0x11" />
+        <flag name="start" value="0x00800003" />
+        <flag name="end" value="0x00800005" />
+    </attr>
+
+    <declare-styleable name="arc_ArcLayout">
+        <attr name="arc_origin"/>
+        <attr name="arc_color" format="color"/>
+        <attr name="arc_radius" format="dimension"/>
+        <attr name="arc_axisRadius" format="dimension"/>
+        <attr name="arc_freeAngle" format="boolean"/>
+        <attr name="arc_reverseAngle" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="arc_ArcLayout_Layout">
+        <attr name="arc_origin"/>
+        <attr name="arc_angle" format="float"/>
+    </declare-styleable>
+    
+    <!-- LockPatternView class attributes -->
+    <declare-styleable name="LockPatternView">
+
+        <!--
+             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height"
+        -->
+        <attr name="aspect">
+            <enum name="square" value="0" />
+            <enum name="lockWidth" value="1" />
+            <enum name="lockHeight" value="2" />
+        </attr>
+        <attr name="line" format="color" />
+        <attr name="btnNormal" format="reference" />
+        <attr name="btnTouched" format="reference" />
+        <attr name="circleNormal" format="reference" />
+        <attr name="circleGreen" format="reference" />
+        <attr name="circleRed" format="reference" />
+        <attr name="arrowGreenUp" format="reference" />
+        <attr name="arrowRedUp" format="reference" />
+    </declare-styleable>
+    
+    <attr name="cropImageStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showHandles">
+          <enum name="changing" value="0" />
+          <enum name="always" value="1" />
+          <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference"/>
+        <attr name="shadow_right" format="reference"/>
+        <attr name="shadow_bottom" format="reference"/>
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference"/>
+    
+    <declare-styleable name="GradientView">
+        <attr name="StringToShow" format="reference"/>
+        <attr name="TextSize" format="dimension"/>
+        <attr name="TextColor" format="integer"/>
+        <attr name="SlideColor" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="SlideBar">
+        <attr name="MinVelocityXToUnlock" format="integer"/>
+        <attr name="MinDistanceToUnlock" format="integer"/>
+        <attr name="LeftAnimationDuratioin" format="integer"/>
+        <attr name="RightAnimationDuratioin" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ShimmerView">
+        <attr name="reflectionColor" format="color"/>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color"/>
+        <attr name="fab_colorNormal" format="color"/>
+        <attr name="fab_icon" format="reference"/>
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AddFloatingActionButton">
+        <attr name="fab_plusIconColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FloatingActionsMenu">
+        <attr name="fab_addButtonColorPressed" format="color"/>
+        <attr name="fab_addButtonColorNormal" format="color"/>
+        <attr name="fab_addButtonPlusIconColor" format="color"/>
+        <attr name="fab_expandDirection" format="enum">
+            <enum name="up" value="0"/>
+            <enum name="down" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="ViewMsgTitleIndict">
+        <attr name="textColor" format="color|reference" />
+        <attr name="textColor_default" format="color" />
+        <attr name="textColor_selected" format="color" />
+        <attr name="num_color" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="numSize" format="dimension" />
+        <attr name="tabCount" format="integer" />
+        <attr name="textArray" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="SwitchButton">
+        <attr name="onDrawable" format="reference" />
+        <attr name="offDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumb_margin" format="dimension|reference" />
+        <attr name="thumb_marginTop" format="dimension|reference" />
+        <attr name="thumb_marginBottom" format="dimension|reference" />
+        <attr name="thumb_marginLeft" format="dimension|reference" />
+        <attr name="thumb_marginRight" format="dimension|reference" />
+        <attr name="thumb_width" format="dimension|reference" />
+        <attr name="thumb_height" format="dimension|reference" />
+        <attr name="onColor" format="color|reference" />
+        <attr name="offColor" format="color|reference" />
+        <attr name="thumbColor" format="color|reference" />
+        <attr name="thumbPressedColor" format="color|reference" />
+        <attr name="animationVelocity" format="integer" />
+        <attr name="radius" format="integer" />
+        <attr name="measureFactor" format="float" />
+        <attr name="insetLeft" format="dimension|reference" />
+        <attr name="insetRight" format="dimension|reference" />
+        <attr name="insetTop" format="dimension|reference" />
+        <attr name="insetBottom" format="dimension|reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    
+    <declare-styleable name="CircularProgress">
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="FadeButtonView">
+        <attr name="fbv_radius" format="dimension" />
+        <attr name="fbv_color" format="color|reference" />
+        <attr name="fbv_alpha" format="float" />
+    </declare-styleable>
+    <declare-styleable name="FadeImageButtonView">
+        <attr name="fibv_radius" format="dimension" />
+        <attr name="fibv_color" format="color|reference" />
+        <attr name="fibv_alpha" format="float" />
+        <attr name="fibv_number" format="enum" >
+            <enum name="zero" value="0"/>
+            <enum name="one" value="1"/>
+            <enum name="two" value="2"/>
+            <enum name="three" value="3"/>
+            <enum name="four" value="4"/>
+            <enum name="five" value="5"/>
+            <enum name="six" value="6"/>
+            <enum name="seven" value="7"/>
+            <enum name="eight" value="8"/>
+            <enum name="nine" value="9"/>
+            <enum name="del" value="10"/>
+            <enum name="clear" value="11"/>
+        </attr>
+    </declare-styleable>
+    
+    <!-- springindicator -->
+    <declare-styleable name="SpringIndicator">
+        <!--tab text color -->
+        <attr name="siTextColor" format="reference"/>
+        <!--tab text color which is selected-->
+        <attr name="siSelectedTextColor" format="reference"/>
+        <!--tab item bg -->
+        <attr name="siTextBg" format="reference"/>
+        <!--tab text size-->
+        <attr name="siTextSize" format="dimension"/>
+        <!--indicator bg color-->
+        <attr name="siIndicatorColor" format="reference"/>
+        <!--indicator bg colors. should equals your titles count-->
+        <attr name="siIndicatorColors" format="reference"/>
+        <!--max indicator radius-->
+        <attr name="siRadiusMax" format="dimension"/>
+        <!--min indicator radius when moving-->
+        <attr name="siRadiusMin" format="dimension"/>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="stl_SmartTabLayout">
+        <attr name="stl_indicatorAlwaysInCenter" format="boolean"/>
+        <attr name="stl_indicatorInFront" format="boolean"/>
+        <attr name="stl_indicatorInterpolation" format="enum">
+            <enum name="smart" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr>
+        <attr name="stl_indicatorColor" format="color"/>
+        <attr name="stl_indicatorColors" format="reference"/>
+        <attr name="stl_indicatorThickness" format="dimension"/>
+        <attr name="stl_indicatorCornerRadius" format="dimension"/>
+        <attr name="stl_underlineColor" format="color"/>
+        <attr name="stl_underlineThickness" format="dimension"/>
+        <attr name="stl_dividerColor" format="color"/>
+        <attr name="stl_dividerColors" format="reference"/>
+        <attr name="stl_dividerThickness" format="dimension"/>
+        <attr name="stl_defaultTabTextAllCaps" format="boolean"/>
+        <attr name="stl_defaultTabTextColor" format="color"/>
+        <attr name="stl_defaultTabTextSize" format="dimension"/>
+        <attr name="stl_defaultTabTextHorizontalPadding" format="dimension"/>
+        <attr name="stl_defaultTabTextMinWidth" format="dimension"/>
+        <attr name="stl_customTabTextLayoutId" format="reference"/>
+        <attr name="stl_customTabTextViewId" format="reference"/>
+        <attr name="stl_distributeEvenly" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="NameImageView">
+        <attr name="niv_radius" format="dimension" />
+    </declare-styleable>
+</resources>

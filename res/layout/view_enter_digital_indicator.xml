@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.qc4w.ilocker.ui.view.EnterDigitalIndicatorItemView
+        android:id="@+id/edii_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" />
+
+    <com.qc4w.ilocker.ui.view.EnterDigitalIndicatorItemView
+        android:id="@+id/edii_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" />
+
+    <com.qc4w.ilocker.ui.view.EnterDigitalIndicatorItemView
+        android:id="@+id/edii_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" />
+
+    <com.qc4w.ilocker.ui.view.EnterDigitalIndicatorItemView
+        android:id="@+id/edii_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" />
+
+</LinearLayout>

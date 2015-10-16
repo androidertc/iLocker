@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:prvandroid="http://schemas.android.com/apk/res/com.qc4w.ilocker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_widget_pager"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="50dp" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/slide_to_unlock_string"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        prvandroid:reflectionColor="@color/drak_gray" />
+
+    <ListView
+        android:id="@+id/lv_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/shimmer_tv"
+        android:layout_below="@id/vp_widget_pager"
+        android:listSelector="@color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>

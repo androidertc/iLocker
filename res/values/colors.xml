@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <color name="accent">#40C4FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#33FFFFFF</color>
+    <color name="transparent_white_pressed">#33F1F1F1</color>
+    <color name="half_transparent">#88000000</color>
+    
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="drak_gray">#5F5F5F</color>
+    
+    <color name="app_main_color">#00CB5E</color>
+    <color name="app_main_color_pressed">#079F4E</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+    
+    <color name="gray">#EEEEEE</color>
+
+    <color name="gradient_text_color">#999999</color>
+    <color name="gradient_slide_text_color">#FFFFFF</color>
+    
+    
+    <color name="background">#f2f2ef</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="black_translucent">#50000000</color>
+    
+    <color name="divider_color">#D6D6D6</color>
+    
+    <color name="gray_color_pressed">#F2F1EF</color>
+    <color name="gray_color_normal">#FDFDFD</color>
+    
+    <!-- indicator -->
+    <color name="default_defalult_color">#343434</color>
+    <color name="default_select_color">#FF4C90</color>
+    <color name="num_color">#FFFFFF</color>
+
+    
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    
+    
+    <color name="progress_red">#FFC93437</color>
+    <color name="progress_blue">#FF375BF1</color>
+    <color name="progress_yellow">#FFF7D23E</color>
+    <color name="progress_green">#FF34A350</color>
+    
+    <!-- springindicator -->
+    <color name="si_default_text_color">#FF0000</color>
+    <color name="si_default_text_color_selected">#FF00FF</color>
+    <color name="si_default_indicator_bg">#ee9999</color>
+    
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorPrimaryLight">#cfd8dc</color>
+    <color name="colorAccent">#ffc107</color>
+
+    <color name="black_light">#99444444</color>
+    <color name="gray_dark">#616161</color>
+    <color name="gray_light">#9e9e9e</color>
+    <color name="brown">#5d4037</color>
+
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+    
+    
+    <color name="Grey">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    
+    <!-- date time picker -->
+    <color name="circle_background">#fff2f2f2</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="darker_blue">#ff0099cc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_black">#7F000000</color>
+</resources>

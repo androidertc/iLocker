@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/iv_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_bottom_operations"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_camera" />
+
+    <LinearLayout
+        android:id="@id/ll_bottom_operations"
+        style="@style/LinearLayout_Operations" >
+
+        <TextView
+            android:id="@+id/tv_disable"
+            style="@style/Button_Operations"
+            android:background="@drawable/selector_gray_bg"
+            android:text="@string/widget_hide"
+            android:textColor="@color/drak_gray" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_pick_color"
+            style="@style/Button_Operations"
+            android:background="@drawable/btn_app_theme"
+            android:text="@string/pick_color_label" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_enable"
+            style="@style/Button_Operations"
+            android:background="@drawable/btn_app_theme"
+            android:text="@string/widget_display" />
+    </LinearLayout>
+
+</RelativeLayout>

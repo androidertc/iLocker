@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:icon="@drawable/ic_menu_more"
+        android:showAsAction="always|withText"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_feedback"
+                android:icon="@drawable/menu_feedback"
+                android:title="@string/menu_feedback"/>
+<!--             <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/menu_update"
+                android:title="@string/menu_share"/> -->
+            <item
+                android:id="@+id/menu_rate"
+                android:icon="@drawable/menu_rate"
+                android:title="@string/menu_rate"/>
+            <item
+                android:id="@+id/menu_help"
+                android:icon="@drawable/menu_about"
+                android:title="@string/menu_help"/>
+        </menu>
+    </item>
+
+</menu>

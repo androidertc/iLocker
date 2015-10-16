@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <com.qc4w.ilocker.ui.view.StickyLayout
+		android:id="@+id/sticky_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_marginTop="0dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/sticky_header"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+			android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/circle_logo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sticky_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.qc4w.ilocker.ui.view.PinnedHeaderExpandableListView
+                android:id="@+id/expandablelist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@null"
+                android:childDivider="@color/divider_color"
+                android:childIndicatorLeft="0dp"
+                android:divider="@color/drak_gray"
+                android:dividerHeight="0dp"
+                android:groupIndicator="@null"
+                android:scrollbarAlwaysDrawHorizontalTrack="false" >
+            </com.qc4w.ilocker.ui.view.PinnedHeaderExpandableListView>
+        </LinearLayout>
+    </com.qc4w.ilocker.ui.view.StickyLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="main_menus">
+        <item>Home</item>
+        <item>Wallpaper</item>
+        <item>Widgets</item>
+        <item>Settings</item>
+        <item>About</item>
+    </string-array>
+
+    <integer-array name="colors">
+        <item>0xFFFFFFFF</item>
+        <item>0xFF3F3FFF</item>
+        <item>0xFF912BC6</item>
+        <item>0xFFFFAE32</item>
+        <item>0xFF45C3C5</item>
+        <item>0xFFFF4875</item>
+        <item>0xFF000000</item>
+        <item>0xFF2BAFF4</item>
+        <item>0xFFA08BCD</item>
+        <item>0xFFF47564</item>
+        <item>0xFFA47C62</item>
+        <item>0xFF3B5999</item>
+        <item>0xFFDF33AC</item>
+        <item>0xFF55BC75</item>
+        <item>0xFF7C45EC</item>
+        <item>0xFFF22B2B</item>
+    </integer-array>
+
+    <string-array name="widget_type">
+        <item>Home screen</item>
+        <item>Right screen</item>
+    </string-array>
+    
+    <string-array name="locker_screen_titles">
+        <item>Theme</item>
+        <item>Lock type</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>1.Sometimes E lock screen off, can\'t lock screen?</item>
+		<item>2.Can\'t disable system lock screen, display double lock screen?</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>Do not use cleaning software to clean the "E Locker", this will lead to lock screen fail. \n\n Improved method: \ "E Locker"to join the process of white list program / ignore list in cleaning up the software (not clear list)," let the E Lokcer running as usual.</item>
+		<item>Enter settings and select disable system lock screen, then select none for disable system lock screen.</item>
+    </string-array>
+    
+</resources>
